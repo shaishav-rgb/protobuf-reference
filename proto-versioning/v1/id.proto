@@ -1,5 +1,7 @@
 syntax = "proto3";
 
+option go_package="github.com/protocol-buffers/go-proto-code/proto-version-go-code";
+
 message Id {
 uint32 value = 1;
 }
