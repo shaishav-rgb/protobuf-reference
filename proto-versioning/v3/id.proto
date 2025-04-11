@@ -1,7 +1,11 @@
 syntax = "proto3";
 
+option go_package="github.com/protocol-buffers/go-proto-code/proto-version-go-code";
+
 message Id {
     reserved 1;
+    reserved "value";
 // string value = 1;
-string value = 2;
+// string value = 2;
+string uuid = 2;
 }

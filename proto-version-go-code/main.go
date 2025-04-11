@@ -1,6 +1,8 @@
 package main
 
-import proto "github.com/protocol-buffers/go-proto-code/proto-version-go-code/proto-version-go-code"
+import proto "github.com/protocol-buffers/go-proto-code/proto-version-go-code/proto-version-3-go-code"
+
+// import proto "github.com/protocol-buffers/go-proto-code/proto-version-go-code/proto-version-go-code"
 
 
 func main() {
