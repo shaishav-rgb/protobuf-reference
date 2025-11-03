@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option go_package="github.com/protocol-buffers/go-proto-code/proto-version-go-code-custom";
+
+message Info {
+//When field number is same then decode happens, not a problem
+string name=1;     
+uint64 age = 2;
+uint64 salary =3;
+string location=4;
+}
