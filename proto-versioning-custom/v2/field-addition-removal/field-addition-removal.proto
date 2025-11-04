@@ -7,4 +7,6 @@ string name=1;
 uint64 age = 2;
 uint64 salary =3;
 string location=4;
+//isMarried is in this proto but not in another proto, when decoded, isMarried will get the default value i.e. false
+bool isMarried=6;
 }
